@@ -85,6 +85,28 @@
     background-position: 800px 0;
   }   
 }
+.slider-container{
+ 
+}
+
+
+.slider-track {
+  display: inline-flex;
+  animation: scroll 50s linear infinite;
+  mask-image: "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)";
+ 
+
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
 
 @media only screen and (max-width: 769px) {

@@ -27,7 +27,7 @@ export default function TopNavBar() {
     
   return (
     <header className="flex sticky  top-5 z-40 justify-center items-center ">
-      <div className="flex bg-white border-4 border-white bg-opacity-50 backdrop-blur-md h-20 shadow-lg w-[90vw] rounded-2xl shrink-0 items-center px-4 md:px-6">
+      <div className="flex bg-white border-4 border-white bg-opacity-50  backdrop-blur-md h-20 shadow-lg w-[90vw] rounded-2xl shrink-0 items-center px-4 md:px-6">
         {/* navbar logo */}
 
       <Link href="#" className="mr-6 flex gap-2" prefetch={false} >
@@ -196,7 +196,7 @@ export default function TopNavBar() {
       </div>
 
       {/* responsive navbar */}
-      <div className="flex lg:hidden">
+      <div className="flex w-full justify-end lg:hidden">
         <Sheet>
             <SheetTrigger className=""><Menu/></SheetTrigger>
         

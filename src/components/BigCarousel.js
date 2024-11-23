@@ -226,7 +226,7 @@ const BigCarousel = () => {
         </div>
             </div>
     </Carousel>
-    <Card className="bg-green-950 mt-12 lg:hidden">
+    <Card className="bg-green-950 mx-5 mt-12 lg:hidden">
                     <CardContent className="flex flex-col sm:gap-8 gap-6 h-[60vh] w-full items-center justify-center p-3">
                     <h1 className="text-white text-[40px] sm:text-5xl  text-center leading-tight md:text-6xl">{t('slide1Title')}</h1>
                     <p className="text-zinc-300  sm:text-lg text-base leading-6 text-center">{t('slide1Description')}</p>
