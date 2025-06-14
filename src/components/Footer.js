@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="absolute h-[30vmin]  blur-[120px] top-36 end-20  w-[50vmin] bg-fuchsia-400   rounded-full"></div>
     <footer className=" flex flex-col relative z-10 bg-white bg-opacity-10">
         <div>
-          <h1 className='lg:text-[11.5vw] text-6xl text-center '>LegalBuddy</h1>
+          <h1 className='lg:text-[11.5vw] text-6xl text-center '>WeInvent</h1>
         </div>
 
         <div className=''>
@@ -108,7 +108,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-center border-neutral-200 border-t-2 py-5'>
-          <p>Copyright © 2024 LegalBuddy </p>
+          <p>Copyright © 2024 WeInvent </p>
         </div>
 
        

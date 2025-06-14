@@ -32,7 +32,7 @@ export default function TopNavBar() {
 
       <Link href="#" className="mr-6 flex gap-2" prefetch={false} >
         {/* <MountainIcon className="h-6 w-6" /> */}
-        <p className="font-semibold text-lg">LegalBuddy</p>
+        <p className="font-semibold text-lg">WeInvent</p>
       </Link>
       
       <div className="flex  justify-center">
