@@ -8,7 +8,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Philosopher({ subsets: ["latin"],weight:"400" });
 
 export const metadata = {
-  title: "We Invent",
+  title: "We-Invent",
   description: "We Invent Launching soon",
 };
 

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="absolute h-[30vmin]  blur-[120px] top-36 end-20  w-[50vmin] bg-fuchsia-400   rounded-full"></div>
     <footer className=" flex flex-col relative z-10 bg-white bg-opacity-10">
         <div>
-          <h1 className='lg:text-[11.5vw] text-6xl text-center '>WeInvent</h1>
+          <h1 className='lg:text-[11.5vw] text-6xl text-center'>We<span className='text-fuchsia-300'>invent</span></h1>
         </div>
 
         <div className=''>
